@@ -1,4 +1,7 @@
 ### Random
+* Running code with the help of code runner:-
+    * Go to `Code runner Setting -> executor map -> edit in json` then find the `cpp` key and replace the value with the following command
+    `"cd $dir && g++ -std=c++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"`.  
 * Calculation precedence from lower to higher
   `char -> int -> long int -> long long int -> float -> double`
 * Overflow should be checked for data type.
